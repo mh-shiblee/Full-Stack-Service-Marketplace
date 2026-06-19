@@ -106,37 +106,36 @@ Before you begin, ensure you have the following installed:
 
 ## 🚀 Installation & Setup
 
-### 1. Clone the Repository
+###  Clone the Repository
 
-```bash
 git clone https://github.com/yourusername/marketplace-platform.git
 cd marketplace-platform
 
-Install Dependencies
+### Install Dependencies
 
 npm install
 
 
-Generate a secure random string for NEXTAUTH_SECRET:
+### Generate a secure random string for NEXTAUTH_SECRET:
 openssl rand -base64 32
 
-Database Setup
+### Database Setup
 Generate Prisma client and create the database:
 
 npx prisma generate
 npx prisma db push
 
 
-Seed the Database
+###  Seed the Database
 
 npx prisma db seed
 
 
-Start Development Server
+### Start Development Server
 
 npm run dev
 
-The application will be available at http://localhost:3000
+## The application will be available at http://localhost:3000
 
 Default Login Credentials
 Admin Account
